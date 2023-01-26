@@ -18,6 +18,7 @@
       /* 2. 모델의 모양을 만들기 */
       let X = tf.input({ shape: [1] }); //값 하나 들어옴
       let Y = tf.layers.dense({ units: 1 }).apply(X); // apply를 통해 연결
+
       let model = tf.model({ inputs: X, outputs: Y }); // 인아웃풋 지정
       let compileParam = {
         optimizer: tf.train.adam(),
