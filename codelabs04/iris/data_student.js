@@ -33,7 +33,8 @@ const IRIS_DATA = [
  * @param testSplit 테스트 데이터로 분할할 비율: 0과 1 사이 숫자
  * @return 길이가 4인 `Array`
  *   - [numTrainExapmles, 4] 크기의 `tf.Tensor`인 훈련 데이터
- *   - [numTrainExamples, 3] 크기의 `tf.Tensor`인 원-핫 인코딩된 훈련 데이터의 레이블
+ *   - [numTrainExamples, 3] 크기의 `tf.Tensor`인 원-핫 인코딩된 훈련 데이터의 레이블..
+ *
  *   - [numTestExamples, 4] 크기의 `tf.Tensor`인 테스트 데이터
  *   - [numTestExamples, 3] 크기의 `tf.Tensor`인 원-핫 인코딩된 테스트 데이터의 레이블
  */
