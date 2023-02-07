@@ -1,5 +1,6 @@
 <template>
-  <div>5</div>
+  <div>ex5 예제</div>
+  개인숙제
 </template>
 
 <script>

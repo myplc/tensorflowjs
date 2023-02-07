@@ -4,14 +4,15 @@
       특강 part2. 딥러닝 프로젝트
       <a href="https://www.tensorflow.org/js?hl=ko">(www.tensorflow.org)</a>
     </h2>
-    <button @click="tfc()">console 체크</button>
+    <button @click="tfc()">console 체크</button> |
     <button @click="e1()">예제1</button>
     <button @click="e2()">예제2</button>
     <button @click="e3()">예제3</button>
-    <button @click="e4()">예제4</button>
+    <button @click="e4()">예제4</button> |
     <button @click="choice = 'ex5'">예제5</button>
     <button @click="choice = 'ex6'">예제6</button>
     <button @click="choice = 'ex7'">예제7</button>
+    <button @click="choice = 'ex8'">예제8</button>
   </div>
   <hr />
   <component :is="choice"></component>
@@ -26,6 +27,7 @@ import ex4 from '@/components/ex4.vue'
 import ex5 from '@/components/ex5.vue'
 import ex6 from '@/components/ex6.vue'
 import ex7 from '@/components/ex7.vue'
+import ex8 from '@/components/ex8.vue'
 
 export default {
   name: 'HomeView',
@@ -59,7 +61,8 @@ export default {
     ex4,
     ex5,
     ex6,
-    ex7
+    ex7,
+    ex8
   }
 }
 </script>
