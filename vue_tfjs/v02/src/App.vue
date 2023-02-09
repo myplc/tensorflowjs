@@ -1,7 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Chart</router-link> |
-    <router-link to="/cam">WebCam Mobile-net</router-link>
+    <router-link to="/cam">WebCam Mobile-net</router-link> |
+    <router-link to="/img">Image Mobile-net</router-link>
   </nav>
   <router-view />
 </template>
